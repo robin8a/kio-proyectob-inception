@@ -166,32 +166,19 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 ```sh
 amplify add auth
-
-   ╭─────────────────────────────────────────────╮
-   │                                             │
-   │      Update available 7.6.26 → 8.3.1        │
-   │   Run npm i -g @aws-amplify/cli to update   │
-   │                                             │
-   ╰─────────────────────────────────────────────╯
-
 Using service: Cognito, provided by: awscloudformation
  
  The current configured provider is Amazon Cognito. 
  
- Do you want to use the default authentication and security configuration? Default
- configuration
+ Do you want to use the default authentication and security configuration? Default configuration
  Warning: you will not be able to edit these selections. 
  How do you want users to be able to sign in? Username
  Do you want to configure advanced settings? No, I am done.
-✅ Successfully added auth resource kioamazingteepeepart57314a5f locally
+✅ Successfully added auth resource kioproyectobrjsapp0d9a3020 locally
 
 ✅ Some next steps:
 "amplify push" will build all your local backend resources and provision it in the cloud
 "amplify publish" will build all your local backend and frontend resources (if you have hosting category added) and provision it in the cloud
-
-(node:18694) [DEP0128] DeprecationWarning: Invalid 'main' field in '/Users/robin8a/.npm-global/lib/node_modules/@aws-amplify/cli/node_modules/cloudform/package.json' of 'packages/cloudform/index.js'. Please either fix that or report it to the module author
-(Use `node --trace-deprecation ...` to show where the warning was created)
-
 ```
 
 
