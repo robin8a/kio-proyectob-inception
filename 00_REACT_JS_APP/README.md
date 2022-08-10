@@ -212,67 +212,24 @@ Edit the file in your editor: /Users/robin8a/Documents/react_ws/kio-proyectob-rj
 # amplify storage
 ```sh
 amplify add storage
-
-? Select from one of the below mentioned services: Content (Images, audio, video, 
-etc.)
-(node:38482) [DEP0128] DeprecationWarning: Invalid 'main' field in '/Users/robin8a/.npm-global/lib/node_modules/@aws-amplify/cli/node_modules/cloudform/package.json' of 'packages/cloudform/index.js'. Please either fix that or report it to the module author
+? Select from one of the below mentioned services: Content (Images, audio, video, etc.)
+(node:66151) [DEP0128] DeprecationWarning: Invalid 'main' field in '/Users/robin8a/.npm-global/lib/node_modules/@aws-amplify/cli/node_modules/cloudform/package.json' of 'packages/cloudform/index.js'. Please either fix that or report it to the module author
 (Use `node --trace-deprecation ...` to show where the warning was created)
-✔ Provide a friendly name for your resource that will be used to label this category in the project: · s3f4bb8d17
-
-✔ Provide bucket name: · kioamazingteepeepartbfb3b12e221e4f9d8cd5bd9e58f
+✔ Provide a friendly name for your resource that will be used to label this category in the project: · s39a3138a8
+✔ Provide bucket name: · kioproyectobrjsapp627f51dfee5f4a219ed7016e45916
 ✔ Who should have access: · Auth and guest users
-✔ What kind of access do you want for Authenticated users? · create/update, read, delete
-
-✔ What kind of access do you want for Guest users? · create/update, read
+✔ What kind of access do you want for Authenticated users? · create/update, read
+✔ What kind of access do you want for Guest users? · read
 ✔ Do you want to add a Lambda Trigger for your S3 Bucket? (y/N) · no
 ⚠️ Auth configuration is required to allow unauthenticated users, but it is not configured properly.
 ✅ Successfully updated auth resource locally.
-✅ Successfully added resource s3f4bb8d17 locally
+✅ Successfully added resource s39a3138a8 locally
 
 ⚠️ If a user is part of a user pool group, run "amplify update storage" to enable IAM group policies for CRUD operations
 ✅ Some next steps:
 "amplify push" builds all of your local backend resources and provisions them in the cloud
 "amplify publish" builds all of your local backend and front-end resources (if you added hosting category) and provisions them in the cloud
-```
 
-
-# Amplify API
-
-```sh
-amplify add api
-# ? Please select from one of the below mentioned services: GraphQL
-# ? Provide API name: kiojupplacesreserver
-# ? Choose the default authorization type for the API API key
-# ? Enter a description for the API key: 
-# ? After how many days from now the API key should expire (1-365): 365
-# ? Do you want to configure advanced settings for the GraphQL API No, I am done.
-# ? Do you have an annotated GraphQL schema? No
-# ? Do you want a guided schema creation? Yes
-# ? What best describes your project: One-to-many relationship (e.g., “Blogs” with “Posts” and “Comments”)
-# ? Do you want to edit the schema now? Yes
-# Please edit the file in your editor: /Users/robin8a/Documents/react_ws/kio-jup-places-reserve-rjs-app/amplify/backend/api/kiojupplacesreserver/schema.graphql
-# ? Press enter to continue 
-
-# The following types do not have '@auth' enabled. Consider using @auth with @model
-#          - Place
-#          - Reserve
-# Learn more about @auth here: https://aws-amplify.github.io/docs/cli-toolchain/graphql#auth 
-
-
-# GraphQL schema compiled successfully.
-
-# Edit your schema at /Users/robin8a/Documents/react_ws/kio-jup-places-reserve-rjs-app/amplify/backend/api/kiojupplacesreserver/schema.graphql or place .graphql files in a directory at /Users/robin8a/Documents/react_ws/kio-jup-places-reserve-rjs-app/amplify/backend/api/kiojupplacesreserver/schema
-# Successfully added resource kiojupplacesreserver locally
-
-# Some next steps:
-# "amplify push" will build all your local backend resources and provision it in the cloud
-# "amplify publish" will build all your local backend and frontend resources (if you have hosting category added) and provision it in the cloud
-
-```
-
-## Result
-
-```sh
 amplify push   
 
 ```
