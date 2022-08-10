@@ -125,22 +125,20 @@ git push
 ## Result
 ```sh
 amplify add hosting
-? Select the plugin module to execute Hosting with Amplify Console (Managed hosting with custom 
-domains, Continuous deployment)
-⠋ (node:13032) [DEP0128] DeprecationWarning: Invalid 'main' field in '/Users/robin8a/.npm-global/lib/node_modules/@aws-amplify/cli/node_modules/cloudform/package.json' of 'packages/cloudform/index.js'. Please either fix that or report it to the module author
+? Select the plugin module to execute Hosting with Amplify Console (Managed hosting with custom domains, Continuous deployment)
+⠋ (node:54597) [DEP0128] DeprecationWarning: Invalid 'main' field in '/Users/robin8a/.npm-global/lib/node_modules/@aws-amplify/cli/node_modules/cloudform/package.json' of 'packages/cloudform/index.js'. Please either fix that or report it to the module author
 (Use `node --trace-deprecation ...` to show where the warning was created)
 ? Choose a type Continuous deployment (Git-based deployments)
-? Continuous deployment is configured in the Amplify Console. Please hit enter once you connect 
-your repository 
+? Continuous deployment is configured in the Amplify Console. Please hit enter once you connect your repository 
 Amplify hosting urls: 
 ┌──────────────┬──────────────────────────────────────────────┐
 │ FrontEnd Env │ Domain                                       │
 ├──────────────┼──────────────────────────────────────────────┤
-│ master       │ https://master.d1mqt1nfypx9zg.amplifyapp.com │
+│ master       │ https://master.d28nrfgsnfxdkh.amplifyapp.com │
 │              ├──────────────────────────────────────────────┤
-│              │ https://amazingteepeepartymiami.click        │
+│              │ https://block-e.com                          │
 │              ├──────────────────────────────────────────────┤
-│              │ https://www.amazingteepeepartymiami.click    │
+│              │ https://www.block-e.com                      │
 └──────────────┴──────────────────────────────────────────────┘
 ```
 
