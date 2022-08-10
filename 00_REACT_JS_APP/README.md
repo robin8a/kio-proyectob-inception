@@ -186,35 +186,24 @@ Using service: Cognito, provided by: awscloudformation
 
 ```sh
 amplify add api
-? Please select from one of the below mentioned services: GraphQL
-? Provide API name: kiowillowpayrjsapp
-? Choose the default authorization type for the API Amazon Cognito User Pool
-Use a Cognito user pool configured as a part of this project.
-? Do you want to configure advanced settings for the GraphQL API No, I am done.
+amplify add api
+? Select from one of the below mentioned services: GraphQL
+? Here is the GraphQL API that we will create. Select a setting to edit or continue (Use arrow keys)
+  Name: kioproyectobrjsapp 
+  Authorization modes: API key (default, expiration time: 7 days from now) 
+? Here is the GraphQL API that we will create. Select a setting to edit or continue Continue
+? Choose a schema template: One-to-many relationship (e.g., “Blogs” with “Posts” and “Comments”)
 
-
-? Do you have an annotated GraphQL schema? No
-? Do you want a guided schema creation? Yes
-? What best describes your project: Objects with fine-grained access control (e
-.g., a project management app with owner-based authorization)
-? Do you want to edit the schema now? Yes
-Please edit the file in your editor: /Users/robin8a/Documents/react_ws/kio-willow-pay-rjs-app/amplify/backend/api/kiowillowpayrjsapp/schema.graphql
-? Press enter to continue 
-
-The following types do not have '@auth' enabled. Consider using @auth with @model
-         - User
-         - Measure
-         - Product
-         - Price
-Learn more about @auth here: https://aws-amplify.github.io/docs/cli-toolchain/graphql#auth 
-
+⚠️  WARNING: your GraphQL API currently allows public create, read, update, and delete access to all models via an API Key. To configure PRODUCTION-READY authorization rules, review: https://docs.amplify.aws/cli/graphql/authorization-rules
 
 GraphQL schema compiled successfully.
 
-Edit your schema at /Users/robin8a/Documents/react_ws/kio-willow-pay-rjs-app/amplify/backend/api/kiowillowpayrjsapp/schema.graphql or place .graphql files in a directory at /Users/robin8a/Documents/react_ws/kio-willow-pay-rjs-app/amplify/backend/api/kiowillowpayrjsapp/schema
-Successfully added resource kiowillowpayrjsapp locally
+Edit your schema at /Users/robin8a/Documents/react_ws/kio-proyectob-rjs-app/amplify/backend/api/kioproyectobrjsapp/schema.graphql or place .graphql files in a directory at /Users/robin8a/Documents/react_ws/kio-proyectob-rjs-app/amplify/backend/api/kioproyectobrjsapp/schema
+✔ Do you want to edit the schema now? (Y/n) · yes
+Edit the file in your editor: /Users/robin8a/Documents/react_ws/kio-proyectob-rjs-app/amplify/backend/api/kioproyectobrjsapp/schema.graphql
+✅ Successfully added resource kioproyectobrjsapp locally
 
-Some next steps:
+✅ Some next steps:
 "amplify push" will build all your local backend resources and provision it in the cloud
 "amplify publish" will build all your local backend and frontend resources (if you have hosting category added) and provision it in the cloud
 ```
