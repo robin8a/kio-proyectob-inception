@@ -249,3 +249,9 @@ amplify push
 # ToDo
 - Show is on caruosel images
 - Modal titles
+
+
+# avoid cycle call on route react router
+
+- https://stackoverflow.com/questions/67361430/how-can-i-avoid-infinite-loops-in-my-react-router-private-routes
+- https://www.freecodecamp.org/news/a-complete-beginners-guide-to-react-router-include-router-hooks/
