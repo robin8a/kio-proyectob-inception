@@ -90,6 +90,18 @@ ssh-keygen
 
 cat ~/.ssh/kio_proyectob_codecommit_rsa.pub
 
+
+ssh-keygen
+~/.ssh/kio_proyectob_codecommit_rsa
+
+cat ~/.ssh/kio_proyectob_codecommit_rsa.pub
+
+
+ssh-keygen
+/Users/robinochoa/.ssh/kio_proyectob_codecommit_rsa
+
+cat ~/.ssh/kio_proyectob_codecommit_rsa.pub
+
 ```
 
 ```sh
@@ -115,8 +127,13 @@ Host kio_proyectob_codecommit_rsa
 # git init
 # https://git-codecommit.us-east-1.amazonaws.com/v1/repos/kio-proyectob-rjs-app
 git remote add origin ssh://kio_proyectob_codecommit_rsa/v1/repos/kio-proyectob-rjs-app
+git branch --set-upstream origin master
 git push --set-upstream origin master
 git push
+
+
+git branch --set-upstream-to=origin/dev dev
+git branch --set-upstream-to=origin/master master
 ```
 
 
