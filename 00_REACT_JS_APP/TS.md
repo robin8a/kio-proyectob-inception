@@ -4,3 +4,6 @@
 ```sh
 export NODE_OPTIONS=--max-old-space-size=8192
 ```
+
+
+ - https://docs.aws.amazon.com/amplify/latest/userguide/ttl.html
