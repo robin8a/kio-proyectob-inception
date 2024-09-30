@@ -136,7 +136,7 @@ nano config
 # CodeCommit hosts
 Host kio_blocke_landing_page_rjs_app
    HostName git-codecommit.us-east-1.amazonaws.com
-   User APKAQQ2OI2OPQJRWLCWE
+   User APKAVVRNPQ5YCCOPDG3T
    IdentityFile ~/.ssh/kio_blocke_landing_page_rjs_app
 
 ```
@@ -144,12 +144,21 @@ Host kio_blocke_landing_page_rjs_app
 <!-- https://xiaolishen.medium.com/use-multiple-ssh-keys-for-different-github-accounts-on-the-same-computer-7d7103ca8693 -->
 
 ```sh
+git clone ssh://kio_blocke_landing_page_rjs_app/v1/repos/kio-blocke-landing-page-rjs-app
+
+
 # git remote -v
 # git remote rm origin
 # git init
+# git clone ssh://kio_blocke_landing_page_rjs_app/v1/repos/kio-blocke-landing-page-rjs-app
+
 git remote add origin ssh://kio_blocke_landing_page_rjs_app/v1/repos/kio-blocke-landing-page-rjs-app
 git push --set-upstream origin master
 git push
+
+
+git clone ssh://kio_blocke_landing_page_rjs_app/v1/repos/kio-proyectob-rjs-app
+
 ```
 
 
