@@ -119,3 +119,28 @@
 - Que pasa cuando no se alcanza la meta?
 - @nelson el flujo grama
 - @team: calcular los recursos necesarios
+
+## 29 Oct, 2024
+
+### Block-e Crowfounding
+
+- Se mantiene igual
+- Pasarela de pagos
+- Validación de los usuarios
+
+### LegalDocs
+
+- 1. [] Términos y condiciones con los inversionistas y proyectistas con firma digital
+- BL: Contratos inteligentes, simularlos.
+- BL: Formatos o formularios, contrato general con clausulas. De acuerdo al perfil. Firma digital
+- BL: Verificación de identidad, SARLAF
+- BL: TruHora, convenio para identidad con ellos
+
+### Proyectos
+
+- HU: 1.features: características. Valor de fondeo, forma de negocio (deuda/equity), descripción gnral, calificación (baja/media/alto)
+- HU: 1.1 Deuda: terminos de retorno % y el tiempo
+- HU: 1.2 Equity % de adquisición
+- TK: Fórmulas @nelson
+- HU: Barra del % de recaudación
+- HU: Cargar de documentos (estudio de viabilidad, proyección financiera y estatutos)
