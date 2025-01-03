@@ -144,3 +144,62 @@
 - TK: Fórmulas @nelson
 - HU: Barra del % de recaudación
 - HU: Cargar de documentos (estudio de viabilidad, proyección financiera y estatutos)
+
+## 23 Dic, 2024
+
+- @nelson probar: Constructor, Administrador
+- @ignacio_robin: Recuperar y contraseña
+- @ignacio_robin: mismo correo para inversionista y constructor
+
+## 03 de enero, 2025
+
+### Cambios hechos
+
+- fix formulario de registro
+- fix logout de pantallas
+- fix maps (todos los que pude ver)
+- fix form update image on create product on admin page
+- fix payu payment page
+- fix progress bar in project component
+- fix progress bar in project list component
+- fix "tus proyectos" in investorAdmon page
+- fix success order update on successOrder component
+
+### para hacer
+
+- mejorar la ui
+- ui responsive
+- limitaciones para crear proyectos (campos obligatorios)
+- formularios con manejos de errores
+- Manejo de errores en consultas al API
+- notificaciones cuando el usuario realiza tareas (creacion, compra, etc)
+- memory leaks, rerenders innecesarios
+- update del flujo de compra y update de ordenes de compra
+- Primero empezaría reestructurando el Panel de administrador
+- Formularios más entendibles, feedback de lo que se está haciendoa
+- mediante toasts
+- separación de ventanas y componentes clara
+- Manejo de error, guía de creación
+- De ahí la UI del inversionista de adentro hacia afuera, comenzaría optimizando la página de detalle de un proyecto, validando errores e inconsistencias que pueden venir de la creación de un proyecto,
+- La Landing está correcta, quizas tocar un poco el responsive de la página, quizá alguna animación para darle vida
+- Listado de proyectos con Buscador, filtros, etc
+- Interfaz del inversionista más clara, primero comenzaría con una estructuración de lo que se quiere mostrar y luego el código
+- Ciclo de validación de documentos, firma
+
+## Verificación de la persona
+
+- como persona debe hacerlo
+- un 3ro, integración
+- proyectos de innovación
+- viabilidad del proyecto
+- analisis financiero
+- analisis de socios
+
+## Elemento necesarios
+
+- Inversionista y el constructor debe poder subir PDF para validar su identidad. Ej. Documento de identidad
+- Validar que la empresa este creada con su documentación
+- PQRs
+- Validación de identidad
+- Constructor, cargar sus documentos
+- Dos modalidades, por plataforma o un 3ro
